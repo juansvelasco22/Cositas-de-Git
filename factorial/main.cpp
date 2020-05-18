@@ -14,9 +14,9 @@ int main()
     
     int factorial=1;
    
-    if(numero==1)
+    if(numero==0)
     {
-        factorial=0;
+        factorial=1;
     }
     else
     {
