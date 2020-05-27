@@ -16,7 +16,7 @@ int main()
     
     int x=4, y=5;
     
-    cout<<suma(x,y)<<endl;
+    cout<<RK4(x,y)<<endl;
     return 0;
     
 }
