@@ -3,10 +3,6 @@
 
 using namespace std;
 
-//Comentarios cortos
-/*
-Comentarios largos
-*/
 
 
 int main()
@@ -14,9 +10,9 @@ int main()
     
     cout<<"Hola mundo"<<endl;
     
-    int x=4, y=5;
+    int y=8.5, v=20;
     
-    cout<<suma(x,y)<<endl;
+    cout<<RK4(y,v)<<endl;
     return 0;
     
 }
