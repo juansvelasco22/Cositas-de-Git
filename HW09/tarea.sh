@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 g++ main.sh
 ./a.out
 
