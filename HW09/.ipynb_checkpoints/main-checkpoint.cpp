@@ -8,15 +8,17 @@ double* RK4(double y0, v0, t, dt)
 {
     // Definicion de variables globales
     //Slope hace referencia a la siguiente posicion en Y
-    double y, t;
+    double y;
+    double t;
     double k1, k2, k3 k4, slope;
     
     
     //Primer paso
+    // Se usan las ecuacione de funciones.h para calcular la las nueva posiciones
     y=posicion(y0, t, v0);
     
     
-    
+    //Valores de RK4
     k1 = velocidad(y,t)*dt;
     k2 = velocidad(y + 0.5*k1, t+(0.5*dt))*dt; 
     k3 = velocidad(y + 0.5*k2, t+(0.5*dt))*dt; 
@@ -37,7 +39,6 @@ int main()
     double y0=8.5, v0=20;
     
     
-    //cout<<RK4(y,v)<<endl;
     return 0;
     
 }
